@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" class="BackgroundEvents">
+
+<head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evenements</title>
+</head>
+
+<body>
+
+    <svg width="250" height="250">
+
+        <filter id='noiseFilter' x='0%' y='0%' width='100%' height='100%'>
+            <feTurbulence type="turbulence" baseFrequency="0.3 0.3" result="NOISE" numOctaves="2" />
+            <feDisplacementMap in="SourceGraphic" in2="NOISE" scale="15" xChannelSelector="R" yChannelSelector="G">
+            </feDisplacementMap>
+        </filter>
+        <rect x="0" y="0" width="100%" height="100%" filter="url(#noise)" fill="none">
+
+    </svg>
+
+    <div class="header">
+
+
+        <h1>Nos Evenements</h1>
+    </div>
+
+    <div class="content">
+
+    <h2>Afin de répondre aux impératifs de développement durable,
+        ASO ARBRES lance les 2 saisons vertes 2022</h2>
+    <p>Plantons 1 million d’arbres
+
+        Grâce à l’application ASOARBR
+
+        1 clic = 2 € = 1 arbre = 1 Point DD</p>
+
+    <p>Nettoyons nos forêts
+
+        Grâce à l’application ASOARBR
+
+        1 clic = 2 € = 1 rdv géolocalisé à cette date
+
+        selon le lieu de mon choix parmi 250 sites forestier</p>
+
+    <p>= Je deviens ASOcié.e et membre actif d’ASO
+
+        Mes points DD me permettent d’accéder à la communauté ASO
+        en devenant contributeur actif de nombreux projets portés par
+        ASO*</p>
+
+    <p>= Je suis membre actif et mon identité ASOARBR est lisible sur
+        les réseaux sociaux
+
+        Je peux accéder à de nombreux évènements organisés par
+        ASOARBR ou de ses partenaires</p>
+    </div>
+
+
+
+
+</body>
+
+</html>

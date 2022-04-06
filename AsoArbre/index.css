@@ -1,0 +1,130 @@
+html {
+    background-color: white;
+}
+
+.at-container {
+    text-align: center;
+  
+}
+
+
+.at-item {
+    text-align: center;
+    color: black;
+    font-size: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: black;
+    font-size: 25px;
+  }
+
+/*li {
+    float: left;
+}
+*/
+
+li a {
+    display: block;
+    color: black;
+    padding: 20px 15px;
+    text-decoration: double;
+    font-size: large;
+    text-align: right;
+}
+
+.Block1 {
+    height: 150px;
+    width: 150px;
+    margin: 150px;
+    padding: 150px;
+    border: 200px;
+    font-size: 20px;
+    text-transform: none;
+
+}
+
+.EventTitle {
+    text-align: center;
+    font-size: 50px;
+}
+
+#Events {
+    height: 800px;
+    width: 1900px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,400;1,600&family=Roboto+Slab:wght@700&display=swap');
+
+body {
+  font-family: Montserrat, sans;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+svg {
+  display: none;
+}
+.header {
+  background: rgba(255,255,255,.5);
+  border-bottom: 1px solid #EEE;
+  box-shadow: 2px 0px 10px rgba(0,0,0,.2);
+  height: 200px;
+  padding: 1px;
+  position: sticky;
+  top: 0;
+  z-index: 1.;
+}
+.header::before, .header::after {
+  content: '';
+  display: block;
+  left: 0px;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.header::before {
+  backdrop-filter: url(#noiseFilter);
+  z-index: 2;
+}
+.header::after {
+  backdrop-filter: blur(5px);
+  z-index: 1;
+}
+.header .content {
+  margin-top: 0px;
+  position: relative;
+  z-index: 2;
+}
+.content {
+  margin: 50px auto 100px auto;
+  max-width: 800px;
+}
+h1, h2 {
+  font-family: 'Roboto Slab';
+  font-weight: 700;
+}
+
+img {
+  max-width: 100%;
+}
+
+.Yg {
+  height: 50px;
+  width: 50px;
+}
+
+
+.BackgroundEvents {
+  background-image: url(fond.jpg);
+}
+
+.LinkEvent {
+  font-family: 'Roboto Slab';
+  font-weight: 700;
+}

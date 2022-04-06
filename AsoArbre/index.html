@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Neonderthaw&family=Oswald:wght@300&family=Roboto+Mono:ital,wght@1,500&family=Rowdies:wght@700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aso arbre</title>
+</head>
+
+<body>
+
+
+  <svg width="250" height="250">
+
+    <filter id='noiseFilter' x='0%' y='0%' width='100%' height='100%'>
+      <feTurbulence type="turbulence" baseFrequency="0.3 0.3" result="NOISE" numOctaves="2" />
+      <feDisplacementMap in="SourceGraphic" in2="NOISE" scale="15" xChannelSelector="R" yChannelSelector="G">
+      </feDisplacementMap>
+    </filter>
+
+    <rect x="0" y="0" width="100%" height="100%" filter="url(#noise)" fill="none">
+
+  </svg>
+
+  <div class="header">
+    <div class="content">
+
+      <h1>Aso arbre</h1>
+      <img class="Yg" src="Yg6D.gif" alt="">
+
+      <ul>
+        <li class="LinkEvent" >  <a href="events.html"> <u> Nos events</u></a> </li>
+      </ul>
+    </div>
+
+  </div>
+  <div class="content">
+
+    <h2>NOTRE AMBITION</h2>
+    <p>Reconnue association loi 1901, nous œuvrons
+      chaque jour pour la protection et le développement
+      durable des forêts en portant appui à des projets de
+      replantation dans des zones appartenant à des
+      propriétaires privés. </p>
+    <img src="1_tree.jpg" />
+    <h2>NOTRE EQUIPE</h2>
+    <p>Nous sommes une team de 300 experts
+      en foresterie, répartis sur tout le
+      territoire pour faciliter la plantation
+      de millions d'arbres en quelques
+      mois…</p>
+    <h2>NOS MODALITÉS D’INTERVENTION : 3 ÉTAPES</h2>
+    <p>1. Nous contactons dans un 1er temps les collectivités locales
+      pour organiser un forum « ASO ARBRES » et ensuite nous
+      faire connaître auprès de propriétaires fonciers désireux de
+      reboiser en vue de créer des puits de carbone et d’agir pour
+      l’environnement.</p>
+
+    <p>2. Les propriétaires de terrain intéressés par notre aide signent
+      avec nous un « pacte ASO ARBRES » dans lequel nous nous
+      engageons mutuellement à planter a minima 200 arbres par
+      hectare, entièrement financés par eux. En retour, nous nous
+      chargeons des plantations et formons les propriétaires fonciers qui
+      le souhaitent aux « gestes clef » permettant de gérer leur
+      plantation. Notre spécificité consiste aussi à former toutes les
+      personnes qui le souhaitent afin qu’elle perpétuent notre action</p>
+
+    <p>3. Une fois les plants disponibles, nous nous chargeons de les
+      planter et d’en assurer un suivi au cours des 3 premières
+      années. Nos capteurs arboricoles nous facilitent cette tâche à
+      grande échelle, en nous indiquent l’état de chaque arbre en
+      temps réel : détresse hydrique, taux de capture du CO2…
+      
+      Au bout de 3 ans , nous considérons que l’arbre est devenu
+      autonome et avons formé chaque propriétaire</p>
+  </div>
+
+</body>
+
+</html>
